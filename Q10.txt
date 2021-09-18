@@ -1,0 +1,110 @@
+QUESTION NUMBER 10:
+
+5 Illegal:
+1.
+void main(){
+  
+  var name = "Arsalan";
+  
+  print (name);
+}
+RESULT:
+Arsalan
+
+2.
+numbers can be use after alphabets
+void main(){
+  
+  var name2 = "Arsalan";
+  
+  print (name2);
+}
+RESULT:
+Arsalan
+
+3.
+special character like $ and _ can be use after alphabets
+void main(){
+  
+  var name$ = "Arsalan";
+  
+  print (name$);
+}
+RESULT:
+Arsalan
+
+4.
+first letter can be Upper case but it is case sensitive
+void main(){
+  
+  var Name = "Haseeb";
+  
+  print (Name);
+}
+RESULT:
+Hasseb
+5.
+We can use numbers between alphabets
+void main(){
+  
+  var na1me = "Haseeb";
+  
+  print (na1me);
+}
+RESULT:
+Haseeb
+
+5 Illegal;
+1.
+numbers cannot be used in the start
+void main(){
+  
+  var 1name = "Haseeb";
+  
+  print (1name);
+}
+RESULT:
+Gives error
+
+2.
+space creats an error
+void main(){
+  
+  var name 1  = "Haseeb";
+  
+  print (name 1 );
+}
+RESULT:
+Gives error
+3.
+Special character like # and other are not allowed
+void main(){
+  
+  var  #name = "Ali";
+  
+  print (#name );
+}
+RESULT:
+Gives error
+
+4.
+numbers cannot be used as variable name
+void main(){
+  
+  var  1 = "Ali";
+  
+  print (1 );
+}
+RESULT:
+Gives error
+
+5.
+variable name should be assign else it gives error
+void main(){
+  
+  var  = "Ali";
+  
+  print (NAME);
+}
+RESULT:
+Gives error
