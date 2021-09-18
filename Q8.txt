@@ -1,0 +1,33 @@
+QUESTION NUMBER 8:
+
+void main() {
+  
+  print("Email Address:");
+  print("arsalan1mehar@gmail.com");
+  print("\n");
+ 
+  
+  var a = "arsalan@123";
+  
+  if (a == "arsalan@123"){
+    print("Your password is correct");
+    print('\n');
+    print("LogIn Succesful");
+  }
+  else if (a.isEmpty){
+    print ("Enter your password");
+  }
+  else{
+    print("Password is incorrect");
+  }
+    
+}
+RESULT:
+Email Address:
+arsalan1mehar@gmail.com
+
+
+Your password is correct
+
+
+LogIn Succesful
